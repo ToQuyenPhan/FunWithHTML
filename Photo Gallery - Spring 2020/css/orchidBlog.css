@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+header{
+    height: 50px;
+    background-color: rgb(0, 148, 0);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li a{
+    float: left;
+    background-color: rgb(0, 148, 0);
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.howtogrow{
+    display: flex;
+    font-size: 17px;
+    clear: both;
+}
+.howtogrow p{
+    width: 30%;
+    padding: 10px 10px;
+}
+.howtogrow p:last-child{
+    padding-right: 50px;
+}
+.howtogrow p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.aboutme form{
+    text-align: center;
+}
+.aboutme form table tr:last-child td{
+    text-align: left;
+    padding-left: 10px;
+}
+.aboutme form table tr:not(tr:last-child) td input{
+    width: 100%;
+}
+section h2{
+    color: black;
+}
+#frame{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.row{
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+.row img{
+    width: 100px;
+    height: 125px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
